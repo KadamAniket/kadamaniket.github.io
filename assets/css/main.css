@@ -2584,12 +2584,13 @@ body>article {
 
 #nav>ul.container {
 	float: left;
-	width: 50% !important;
+	width: 80% !important;
+	text-align: left;
 }
 
 #nav>ul.links {
 	float: right;
-	width: 50% !important;
+	width: 20% !important;
 	text-align: right;
 }
 
@@ -2601,6 +2602,7 @@ body>article {
 
 .company-logo {
 	height: 300px;
+	width:100%
 }
 
 .tech-logo{
