@@ -290,7 +290,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5em;
+	font-size: 1.75em;
 	letter-spacing: -0.015em;
 }
 
@@ -364,7 +364,7 @@ footer>p {
 @media screen and (max-width: 1280px) {
 
 	.container {
-		width: 960px;
+		width: 1160px;
 	}
 
 	.container.medium {
@@ -1264,10 +1264,6 @@ footer>p {
 		margin-left: 91.66667%;
 	}
 
-	.row>.col-12-medium {
-		width: 100%;
-	}
-
 	.row>.off-12-medium {
 		margin-left: 100%;
 	}
@@ -1620,6 +1616,19 @@ footer>p {
 	}
 
 }
+
+@media screen and (max-width: 900px) { 
+	h1.introduction {
+			font-size: 2.5em;
+		}
+	}
+
+@media screen and (max-width: 580px) { 
+.row>.col-12-medium {
+		width: 100%;
+	}
+}
+
 
 /* Form */
 
@@ -2032,6 +2041,7 @@ ul.actions li:first-child {
 	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 	text-align: center;
 	padding: 2em;
+	height: 100%;
 }
 
 .box.style1 {
@@ -2385,7 +2395,7 @@ body>article {
 	h4,
 	h5,
 	h6 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 		margin: 0 0 0.4em 0;
 	}
 
@@ -2646,3 +2656,59 @@ body>article {
 .wider-img{
 	width: 160px;
 }
+
+.project-tech-section > img{
+	width:50px;
+	height: 50px !important;
+}
+
+.testimony-person{
+	width:40%;
+	height:100%;
+	float: left;
+}
+
+.testimony-person-image{
+	border-radius: 50px;
+	margin-top: 10%;
+	width: 100px;
+	height: 100px;
+}
+
+.testimony-key-word{
+	padding-top: 10%;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+.testimony-quote{
+	height:100%;
+}
+
+.testimony-quote blockquote{
+	min-height: 160px;
+}
+
+
+.testimony-person-info{
+	text-align: left;
+	padding: 5px;
+}
+
+.quote{
+	color: #888;
+	font-size: 40px;
+	display: block;
+	font-family: 'Font Awesome 5 Brands';
+}
+
+.opening-quote{
+	float: left;
+	
+}
+
+.closing-quote{
+	float: right;
+}
+
