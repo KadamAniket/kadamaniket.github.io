@@ -1627,6 +1627,11 @@ footer>p {
 .row>.col-12-medium {
 		width: 100%;
 	}
+
+	.testimony-person{
+		width:100% !important;
+		height: auto !important;
+	}
 }
 
 
