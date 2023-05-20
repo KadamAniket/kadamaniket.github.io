@@ -2605,14 +2605,15 @@ body>article {
 }
 
 .project-desc {
+	padding-top:10px;
 	font-size: 14px;
-	height: 250px;
+	height: 200px;
 	overflow: auto;
 	text-align: left;
 }
 
 .company-logo {
-	height: 300px;
+	height: 270px;
 	width:100%
 }
 
@@ -2710,5 +2711,12 @@ body>article {
 
 .closing-quote{
 	float: right;
+}
+
+.resume-section > a{
+	padding: 10px;
+	margin-left: 10px;
+	font-size: 1.25em;
+	width: 150px;
 }
 
