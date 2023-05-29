@@ -309,7 +309,7 @@ hr {
 	border-top-color: rgba(0, 0, 0, 0.35);
 	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 	height: 1px;
-	margin: 3em 0;
+	margin: 2em 0;
 }
 
 p,
@@ -2122,7 +2122,7 @@ ul.actions li:first-child {
 .wrapper {
 	background-image: url("images/bg.png");
 	box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-	padding: 4em 0 4em 0;
+	padding: 3em 0 3em 0;
 	text-align: center;
 }
 
@@ -2724,4 +2724,3 @@ body>article {
 	font-size: 1.25em;
 	width: 150px;
 }
-
